@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="areaOfCircle(4)">radius - 4</button>
+    <button type="button" onclick="areaOfCircle(6)">radius - 6</button>
+<p>
+    Area of Circle= <b id="output">?</b>
+</p>
+    <script>
+        function areaOfCircle(r)
+        {
+            let area=2.14*r*r;
+            document.getElementById("output").innerHTML=area;
+        }
+    </script>
+</body>
+
+</html>
